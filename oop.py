@@ -182,7 +182,7 @@ class Profile:
         self.sex = sex
 
     def __repr__(self):
-        return str(list(self.__dict__.values()))
+        return str(self.__dict__.values())
 
 
 # 4.* Create an interface for the Laptop with the next methods: Screen, Keyboard, Touchpad, WebCam, Ports, Dynamics
