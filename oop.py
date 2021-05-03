@@ -181,8 +181,8 @@ class Profile:
         self.age = age
         self.sex = sex
 
-    def __repr__(self):
-        return str(self.__dict__.values())
+    def __str__(self):
+        return f"Profile with params: {tuple(self.__dict__.values())}"
 
 
 # 4.* Create an interface for the Laptop with the next methods: Screen, Keyboard, Touchpad, WebCam, Ports, Dynamics
